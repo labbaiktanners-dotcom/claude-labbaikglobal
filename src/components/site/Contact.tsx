@@ -66,7 +66,7 @@ export function Contact() {
               <div className="glass-strong rounded-2xl overflow-hidden h-64">
                 <iframe
                   title="Labbaik International location"
-                  src="https://www.google.com/maps?q=Tannery+Street+Peria+Agraharam+Erode+638005&output=embed"
+                  src="https://www.google.com/maps?q=Labbaik+International,Erode&ll=11.3672126,77.7035434&z=17&output=embed"
                   loading="lazy"
                   className="w-full h-full grayscale-[40%] contrast-110"
                   style={{ filter: "invert(0.85) hue-rotate(180deg) saturate(0.7)" }}
