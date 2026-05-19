@@ -2,7 +2,7 @@ import hero from "@/assets/hero-leather.jpg";
 import logo from "@/assets/logo.jpg";
 import { Particles } from "./Particles";
 
-const checks = ["International Supply", "Reliable Grading", "Export Documentation", "Quality Assured"];
+const checks = ["Reliable Grading", "Quality Assured", "Trusted Processing", "Consistent Supply"];
 
 export function Hero() {
   return (
@@ -25,9 +25,9 @@ export function Hero() {
             Leather Wet Blue Supplier
           </div>
 
-          <h1 className="mt-6 font-display font-medium leading-[0.95] text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
-            <span className="block text-gradient-bronze">LABBAIK</span>
-            <span className="block text-foreground/90 text-3xl sm:text-4xl lg:text-5xl tracking-[0.25em] mt-2">INTERNATIONAL</span>
+          <h1 className="mt-6 font-display leading-[0.95] text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
+            <span className="block font-semibold text-gradient-bronze">LABBAIK</span>
+            <span className="block font-extralight text-foreground/80 text-2xl sm:text-3xl lg:text-4xl tracking-[0.45em] mt-3">INTERNATIONAL</span>
           </h1>
 
           <p className="mt-6 font-display italic text-2xl sm:text-3xl text-cream/90 max-w-2xl">
@@ -78,10 +78,6 @@ export function Hero() {
             </div>
           </div>
           {/* floating glass card */}
-          <div className="hidden sm:block absolute -left-8 top-10 glass-strong rounded-2xl p-4 animate-float">
-            <div className="text-3xl font-display text-bronze">15+</div>
-            <div className="text-xs text-muted-foreground uppercase tracking-wider">Countries Served</div>
-          </div>
           <div className="hidden sm:block absolute -right-6 bottom-32 glass-strong rounded-2xl p-4 animate-float-slow">
             <div className="text-3xl font-display text-bronze">100%</div>
             <div className="text-xs text-muted-foreground uppercase tracking-wider">Hands-on Inspected</div>

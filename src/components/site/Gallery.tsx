@@ -9,12 +9,12 @@ import { Reveal } from "./Reveal";
 
 // To add more images later: just push to this array.
 const images: { src: string; alt: string; span?: string }[] = [
-  { src: g1, alt: "Warehouse with stacked wet blue hides", span: "md:row-span-2" },
+  { src: g1, alt: "Folded wet blue chrome-tanned hides", span: "md:row-span-2" },
   { src: g2, alt: "Hands inspecting wet blue leather" },
-  { src: g3, alt: "Export shipping containers at port" },
-  { src: g4, alt: "Rolled wet blue hides ready to ship", span: "md:row-span-2" },
+  { src: g3, alt: "Grading a wet blue hide on the workbench" },
+  { src: g4, alt: "Rolled wet blue hides ready to dispatch", span: "md:row-span-2" },
   { src: g5, alt: "Tannery drum processing leather" },
-  { src: g6, alt: "Macro of chrome tanned leather grain" },
+  { src: g6, alt: "Macro of chrome-tanned leather grain" },
 ];
 
 export function Gallery() {
@@ -37,8 +37,8 @@ export function Gallery() {
         <Reveal>
           <div className="text-center mb-16">
             <div className="text-xs uppercase tracking-[0.3em] text-bronze mb-4">Gallery</div>
-            <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl">Our Products, Facility &amp; Shipments</h2>
-            <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">A glimpse into our operations and the quality of every batch we ship.</p>
+            <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl">Inside Our Process</h2>
+            <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">A close look at our wet blue hides, grading and tannery process — honest visuals from the bench.</p>
           </div>
         </Reveal>
 
