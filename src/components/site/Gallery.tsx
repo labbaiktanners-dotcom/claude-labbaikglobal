@@ -38,7 +38,7 @@ export function Gallery() {
           <div className="text-center mb-16">
             <div className="text-xs uppercase tracking-[0.3em] text-bronze mb-4">Gallery</div>
             <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl">Inside Our Process</h2>
-            <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">A close look at our wet blue hides, grading and tannery process — honest visuals from the bench.</p>
+            <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">A closer look at wet blue hides, grading, and leather processing visuals.</p>
           </div>
         </Reveal>
 

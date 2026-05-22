@@ -4,8 +4,7 @@ const steps = [
   { t: "Raw Hide Sourcing", d: "Direct procurement from trusted market suppliers." },
   { t: "Chrome Tanning", d: "Processed at reputable partner tanneries." },
   { t: "Quality Inspection", d: "Each hide graded and verified personally." },
-  { t: "Storage", d: "Held in our own facility, ready to dispatch." },
-  { t: "Export Dispatch", d: "Freight and documentation handled end-to-end." },
+  { t: "Storage & Ready Supply", d: "Held in our own facility, inspected, graded, and maintained ready for supply to leather manufacturers across the country." },
 ];
 
 export function About() {
