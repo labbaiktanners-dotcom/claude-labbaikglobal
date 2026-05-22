@@ -6,7 +6,7 @@ const Icon = ({ d }: { d: string }) => (
 
 const items = [
   { title: "Quality We Personally Oversee", desc: "We source raw hides ourselves, select trusted tanneries for chrome-tanning, and inspect the finished wet blue before storage.", icon: "M12 2l2.5 6.5L21 9l-5 4.5L17.5 21 12 17.5 6.5 21 8 13.5 3 9l6.5-.5L12 2z" },
-  { title: "International Export", desc: "We supply wet blue hides internationally with complete freight and export coordination.", icon: "M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20" },
+  { title: "Consistent Supply", desc: "Ready to supply leather manufacturers across the country through dependable sourcing, grading, and stock readiness.", icon: "M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20" },
   { title: "Reliable Logistics", desc: "Freight and customs documentation handled end-to-end for on-time delivery.", icon: "M3 7h13l3 4h2v6h-2a2 2 0 11-4 0H9a2 2 0 11-4 0H3V7zM5 7V5h11v2" },
   { title: "Quality Assured", desc: "Every hide is inspected and graded before shipment. REACH compliant and aligned with international leather trade standards.", icon: "M9 12l2 2 4-4M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" },
 ];
