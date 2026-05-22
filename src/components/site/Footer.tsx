@@ -30,14 +30,15 @@ export function Footer() {
               </p>
               <div className="mt-6 flex gap-3">
                 {[
-                  { d: "M22 5.8a8.5 8.5 0 01-2.4.7 4.2 4.2 0 001.8-2.3 8.4 8.4 0 01-2.7 1A4.2 4.2 0 0011 9.3a11.9 11.9 0 01-8.6-4.4 4.2 4.2 0 001.3 5.6 4.2 4.2 0 01-1.9-.5v.1a4.2 4.2 0 003.4 4.1 4.2 4.2 0 01-1.9.1 4.2 4.2 0 003.9 2.9A8.5 8.5 0 012 18.6a12 12 0 006.5 1.9c7.8 0 12-6.5 12-12v-.5A8.6 8.6 0 0022 5.8z", l: "Twitter" },
-                  { d: "M4 4h16v16H4zM4 4l8 8 8-8", l: "Email" },
-                  { d: "M16 8a6 6 0 016 6v7h-4v-7a2 2 0 10-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 4a2 2 0 110 4 2 2 0 010-4z", l: "LinkedIn" },
+                  { d: "M18.244 2H21.5l-7.5 8.57L23 22h-6.844l-5.36-6.99L4.6 22H1.34l8.02-9.17L1 2h7.02l4.84 6.4L18.244 2zm-1.2 18h1.89L7.05 4H5.04l12.004 16z", l: "X (Twitter)", href: "https://x.com/labbaikintl" },
+                  { d: "M4 4h16v16H4zM4 4l8 8 8-8", l: "Email", href: "mailto:info@labbaikglobal.in" },
+                  { d: "M22 12a10 10 0 10-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.51 1.49-3.9 3.78-3.9 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0022 12z", l: "Facebook", href: "https://www.facebook.com/labbaikintl/" },
                 ].map((s) => (
-                  <a key={s.l} href="#" aria-label={s.l} className="glass rounded-full h-10 w-10 grid place-items-center hover:bg-white/10 hover:text-bronze transition">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"><path d={s.d}/></svg>
+                  <a key={s.l} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.l} className="glass rounded-full h-10 w-10 grid place-items-center hover:bg-white/10 hover:text-bronze transition">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d={s.d}/></svg>
                   </a>
                 ))}
+
               </div>
             </div>
             <div>
