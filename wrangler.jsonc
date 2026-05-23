@@ -1,7 +1,7 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "lovable-labbaikglobal",
-  "main": "dist/server/server.js",
+  "main": "./dist/server/server.js",
   "compatibility_date": "2025-09-24",
   "compatibility_flags": ["nodejs_compat"],
 
