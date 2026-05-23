@@ -1,11 +1,6 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "lovable-labbaikglobal",
-  "main": "./dist/server/server.js",
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tanstack-start-app",
   "compatibility_date": "2025-09-24",
-  "compatibility_flags": ["nodejs_compat"],
-
-  "assets": {
-    "directory": "./dist/client"
-  }
+  "compatibility_flags": ["nodejs_compat"]
 }
