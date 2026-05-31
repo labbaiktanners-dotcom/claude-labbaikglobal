@@ -64,7 +64,7 @@ export function Footer() {
               <div className="text-[11px] uppercase tracking-[0.25em] text-bronze mb-3 mt-6">Contact</div>
               <ul className="space-y-1 text-sm text-muted-foreground">
                 <li>info@labbaikglobal.in</li>
-                <li>+91 8637 67 8637</li>
+                <li>+91 9600 20 7777</li>
                 <li>Erode, Tamil Nadu</li>
               </ul>
             </div>
