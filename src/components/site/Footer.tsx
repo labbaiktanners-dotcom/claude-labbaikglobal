@@ -65,7 +65,7 @@ export function Footer() {
               <ul className="space-y-1 text-sm text-muted-foreground">
                 <li>info@labbaikglobal.in</li>
                 <li>+91 9600 20 7777</li>
-                <li>Erode, Tamil Nadu</li>
+                <li>26, Tannery Street, Peria Agraharam, Erode - 638 005, Tamil Nadu, India</li>
               </ul>
             </div>
           </div>
