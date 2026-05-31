@@ -22,7 +22,7 @@ export function Hero() {
         <div className="lg:col-span-7 animate-fade-up">
           <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-xs uppercase tracking-[0.25em] text-bronze">
             <span className="h-1.5 w-1.5 rounded-full bg-bronze animate-pulse" />
-            Most Trusted Wet Blue Supplier
+            Leather Wet Blue Supplier
           </div>
 
           <h1 className="mt-6 font-display leading-[0.95] text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
@@ -31,11 +31,11 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 font-display italic text-2xl sm:text-3xl text-cream/90 max-w-2xl">
-            Premium Wet Blue Supplier to the Leather Industry Nationwide
+            Premium Wet Blue Supplier for Global Tanneries
           </p>
 
           <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Labbaik International supplies high-quality chrome-tanned wet blue hides to manufacturers nationwide. Known for its distinctive tanning quality and reliable consistency — honest dealing, every shipment.
+            Labbaik International supplies high-quality chrome-tanned wet blue hides to manufacturers worldwide. Backed by tanners with a strong market reputation — consistent grading, honest dealing, every shipment.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">

@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       { title: "Labbaik International — Premium Wet Blue Leather Supplier" },
       { name: "description", content: "Chrome-tanned wet blue hides — bovine, buffalo, goat and sheep — supplied to global tanneries with reliable grading and full export documentation." },
       { property: "og:title", content: "Labbaik International — Premium Wet Blue Leather Supplier" },
-      { property: "og:description", content: "Premium Wet Blue Supplier to the Leather Industry Nationwide. Hands-on quality, consistent grading, end-to-end coordination." },
+      { property: "og:description", content: "Premium Wet Blue Supplier for Global Tanneries. Hands-on quality, consistent grading, end-to-end export coordination." },
     ],
     scripts: [
       {
@@ -24,9 +24,9 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "Organization",
           name: "Labbaik International",
-          description: "Premium Wet Blue Supplier to the Leather Industry Nationwide",
+          description: "Premium Wet Blue Supplier for Global Tanneries",
           email: "info@labbaikglobal.in",
-          telephone: "+91-9600-20-7777",
+          telephone: "+91-8637-67-8637",
           address: {
             "@type": "PostalAddress",
             streetAddress: "26, Tannery Street, Peria Agraharam",
