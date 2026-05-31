@@ -71,7 +71,7 @@ export function Footer() {
           </div>
           <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row gap-3 justify-between text-xs text-muted-foreground">
             <div>© {new Date().getFullYear()} Labbaik International. All rights reserved.</div>
-            <div>Premium Wet Blue Supplier to the Leather Industry Nationwide</div>
+            <div>Premium Wet Blue Supplier for Tanneries Across the Country</div>
           </div>
         </div>
       </div>
