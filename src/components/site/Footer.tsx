@@ -27,7 +27,7 @@ export function Footer() {
                 </div>
               </div>
               <p className="mt-5 text-sm text-muted-foreground max-w-md leading-relaxed">
-                Premium Wet Blue Supplier for Global Tanneries. Chrome-tanned hides, hands-on quality, end-to-end export coordination.
+                Premium Wet Blue Supplier for Tanneries across the country. Chrome-tanned hides, hands-on quality, end-to-end coordination.
               </p>
               <div className="mt-6 flex gap-3">
                 {[
