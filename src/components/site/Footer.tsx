@@ -27,7 +27,7 @@ export function Footer() {
                 </div>
               </div>
               <p className="mt-5 text-sm text-muted-foreground max-w-md leading-relaxed">
-                Premium Wet Blue Supplier for Global Tanneries. Chrome-tanned hides, hands-on quality, end-to-end export coordination.
+                Premium Wet Blue Supplier for Tanneries across the country. Chrome-tanned hides, hands-on quality, end-to-end coordination.
               </p>
               <div className="mt-6 flex gap-3">
                 {[
@@ -64,14 +64,14 @@ export function Footer() {
               <div className="text-[11px] uppercase tracking-[0.25em] text-bronze mb-3 mt-6">Contact</div>
               <ul className="space-y-1 text-sm text-muted-foreground">
                 <li>info@labbaikglobal.in</li>
-                <li>+91 8637 67 8637</li>
+                <li>+91 9600 20 7777</li>
                 <li>Erode, Tamil Nadu</li>
               </ul>
             </div>
           </div>
           <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row gap-3 justify-between text-xs text-muted-foreground">
             <div>© {new Date().getFullYear()} Labbaik International. All rights reserved.</div>
-            <div>Premium Wet Blue Supplier for Global Tanneries</div>
+            <div>Premium Wet Blue Supplier to the Leather Industry Nationwide</div>
           </div>
         </div>
       </div>
