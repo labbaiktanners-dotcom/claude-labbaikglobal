@@ -35,6 +35,7 @@ export function Footer() {
                   { d: "M18.244 2H21.5l-7.5 8.57L23 22h-6.844l-5.36-6.99L4.6 22H1.34l8.02-9.17L1 2h7.02l4.84 6.4L18.244 2zm-1.2 18h1.89L7.05 4H5.04l12.004 16z", l: "X (Twitter)", href: "https://x.com/labbaikintl" },
                   { d: "__EMAIL__", l: "Email", href: "mailto:info@labbaikglobal.in" },
                   { d: "M22 12a10 10 0 10-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.51 1.49-3.9 3.78-3.9 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0022 12z", l: "Facebook", href: "https://www.facebook.com/labbaikintl/" },
+                  { d: "M23.5 6.19a3.02 3.02 0 00-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 00.5 6.19 31.5 31.5 0 000 12a31.5 31.5 0 00.5 5.81 3.02 3.02 0 002.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 002.12-2.14A31.5 31.5 0 0024 12a31.5 31.5 0 00-.5-5.81zM9.55 15.5V8.5l6.27 3.5-6.27 3.5z", l: "YouTube", href: "https://www.youtube.com/@LABBAIK-INTERNATIONAL" },
                 ].map((s) => (
                   <a key={s.l} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.l} className="glass rounded-full h-10 w-10 grid place-items-center hover:bg-white/10 hover:text-bronze transition">
                     {s.l === "Email" ? (
