@@ -1,5 +1,6 @@
 import hero from "@/assets/hero-leather.jpg";
-import logo from "@/assets/logo.jpg";
+import logoAsset from "@/assets/logo.jpg.asset.json";
+const logo = logoAsset.url;
 import { Particles } from "./Particles";
 
 const checks = ["Reliable Grading", "Quality Assured", "Trusted Processing", "Consistent Supply"];

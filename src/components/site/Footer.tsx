@@ -1,4 +1,5 @@
-import logo from "@/assets/logo.jpg";
+import logoAsset from "@/assets/logo.jpg.asset.json";
+const logo = logoAsset.url;
 import { Mail } from "lucide-react";
 
 const quick = [
