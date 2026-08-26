@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import logoAsset from "@/assets/logo.jpg.asset.json";
-const logo = logoAsset.url;
 
 const links = [
   { href: "#about", label: "About" },
@@ -24,7 +22,7 @@ export function Nav() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className={`flex items-center justify-between rounded-full px-4 sm:px-6 py-3 transition-all duration-500 ${scrolled ? "glass-strong" : "bg-transparent"}`}>
           <a href="#top" className="flex items-center gap-3">
-            <img src={logo} alt="Labbaik International" className="h-10 w-10 rounded-full object-cover ring-1 ring-bronze/40" />
+            <img src="/logo.jpg" alt="Labbaik International" className="h-10 w-10 rounded-full object-cover ring-1 ring-bronze/40" />
             <div className="hidden sm:block leading-tight">
               <div className="font-display text-lg tracking-wide">Labbaik</div>
               <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">International</div>
