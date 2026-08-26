@@ -1,6 +1,4 @@
 import hero from "@/assets/hero-leather.jpg";
-import logoAsset from "@/assets/logo.jpg.asset.json";
-const logo = logoAsset.url;
 import { Particles } from "./Particles";
 
 const checks = ["Reliable Grading", "Quality Assured", "Trusted Processing", "Consistent Supply"];
@@ -69,7 +67,7 @@ export function Hero() {
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <div className="glass-strong rounded-2xl p-5">
                 <div className="flex items-center gap-3">
-                  <img src={logo} alt="Labbaik" className="h-12 w-12 rounded-full object-cover ring-1 ring-bronze/40" />
+                  <img src="/logo.jpg" alt="Labbaik" className="h-12 w-12 rounded-full object-cover ring-1 ring-bronze/40" />
                   <div>
                     <div className="font-display text-lg leading-none">Labbaik International</div>
                     <div className="text-xs text-muted-foreground mt-1">Your Trustworthy Partner in Growth</div>

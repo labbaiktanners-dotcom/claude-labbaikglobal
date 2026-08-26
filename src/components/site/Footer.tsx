@@ -1,5 +1,3 @@
-import logoAsset from "@/assets/logo.jpg.asset.json";
-const logo = logoAsset.url;
 import { Mail } from "lucide-react";
 
 const quick = [
@@ -28,7 +26,7 @@ export function Footer() {
           <div className="grid md:grid-cols-4 gap-10">
             <div className="md:col-span-2">
               <div className="flex items-center gap-3">
-                <img src={logo} alt="Labbaik International" className="h-14 w-14 rounded-full object-cover ring-1 ring-bronze/40" />
+                <img src="/logo.jpg" alt="Labbaik International" className="h-14 w-14 rounded-full object-cover ring-1 ring-bronze/40" />
                 <div>
                   <div className="font-display text-2xl">Labbaik International</div>
                   <div className="text-xs uppercase tracking-[0.2em] text-muted-foreground mt-1">Your Trustworthy Partner in Growth</div>
