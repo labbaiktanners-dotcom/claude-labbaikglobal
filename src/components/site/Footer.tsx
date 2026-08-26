@@ -1,7 +1,6 @@
 import logoAsset from "@/assets/logo.jpg.asset.json";
 const logo = logoAsset.url;
 import { Mail } from "lucide-react";
-import { useState } from "react";
 
 const quick = [
   { href: "#about", label: "About" },
@@ -21,36 +20,6 @@ const socials = [
 ];
 
 export function Footer() {
-  const [feedback, setFeedback] = useState<string | null>(null);
-
-  const handleSocialClick = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-    href: string,
-    label: string
-  ) => {
-    if (typeof window === "undefined") return;
-    if (href.startsWith("mailto:")) {
-      // Let the default mail client handler run.
-      return;
-    }
-    e.preventDefault();
-    const popup = window.open(href, "_blank", "noopener,noreferrer");
-    if (!popup || popup.closed) {
-      if (navigator.clipboard) {
-        void navigator.clipboard.writeText(href).then(() => {
-          setFeedback(`${label} link copied to clipboard`);
-          window.setTimeout(() => setFeedback(null), 2500);
-        });
-      } else {
-        setFeedback("Please try again from the published site");
-        window.setTimeout(() => setFeedback(null), 2500);
-      }
-    } else {
-      setFeedback(`Opening ${label} in a new tab`);
-      window.setTimeout(() => setFeedback(null), 2000);
-    }
-  };
-
   return (
     <footer className="relative pt-20 pb-10">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-bronze/30 to-transparent" />
@@ -77,7 +46,7 @@ export function Footer() {
                     rel="noopener noreferrer"
                     aria-label={`${s.l} (opens in new tab)`}
                     title={`${s.l} (opens in new tab)`}
-                    onClick={(e) => handleSocialClick(e, s.href, s.l)}
+                    
                     className="glass rounded-full h-10 w-10 grid place-items-center hover:bg-white/10 hover:text-bronze transition"
                   >
                     {s.l === "Email" ? (
@@ -87,11 +56,6 @@ export function Footer() {
                     )}
                   </a>
                 ))}
-                {feedback && (
-                  <span className="text-xs text-bronze" role="status" aria-live="polite">
-                    {feedback}
-                  </span>
-                )}
               </div>
             </div>
             <div>
