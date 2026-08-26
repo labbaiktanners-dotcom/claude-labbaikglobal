@@ -56,11 +56,6 @@ export function Footer() {
                     )}
                   </a>
                 ))}
-                {feedback && (
-                  <span className="text-xs text-bronze" role="status" aria-live="polite">
-                    {feedback}
-                  </span>
-                )}
               </div>
             </div>
             <div>
