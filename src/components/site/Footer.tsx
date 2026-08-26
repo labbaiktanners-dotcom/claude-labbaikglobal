@@ -20,36 +20,6 @@ const socials = [
 ];
 
 export function Footer() {
-  const [feedback, setFeedback] = useState<string | null>(null);
-
-  const handleSocialClick = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-    href: string,
-    label: string
-  ) => {
-    if (typeof window === "undefined") return;
-    if (href.startsWith("mailto:")) {
-      // Let the default mail client handler run.
-      return;
-    }
-    e.preventDefault();
-    const popup = window.open(href, "_blank", "noopener,noreferrer");
-    if (!popup || popup.closed) {
-      if (navigator.clipboard) {
-        void navigator.clipboard.writeText(href).then(() => {
-          setFeedback(`${label} link copied to clipboard`);
-          window.setTimeout(() => setFeedback(null), 2500);
-        });
-      } else {
-        setFeedback("Please try again from the published site");
-        window.setTimeout(() => setFeedback(null), 2500);
-      }
-    } else {
-      setFeedback(`Opening ${label} in a new tab`);
-      window.setTimeout(() => setFeedback(null), 2000);
-    }
-  };
-
   return (
     <footer className="relative pt-20 pb-10">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-bronze/30 to-transparent" />
