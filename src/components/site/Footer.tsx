@@ -1,7 +1,6 @@
 import logoAsset from "@/assets/logo.jpg.asset.json";
 const logo = logoAsset.url;
 import { Mail } from "lucide-react";
-import { useState } from "react";
 
 const quick = [
   { href: "#about", label: "About" },
