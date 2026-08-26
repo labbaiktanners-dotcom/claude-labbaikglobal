@@ -46,7 +46,7 @@ export function Footer() {
                     rel="noopener noreferrer"
                     aria-label={`${s.l} (opens in new tab)`}
                     title={`${s.l} (opens in new tab)`}
-                    onClick={(e) => handleSocialClick(e, s.href, s.l)}
+                    
                     className="glass rounded-full h-10 w-10 grid place-items-center hover:bg-white/10 hover:text-bronze transition"
                   >
                     {s.l === "Email" ? (
